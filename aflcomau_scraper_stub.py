@@ -2,6 +2,7 @@
 Some code to get the JSON from the AFL.com.au stats api
 
 I found the header info by using the developer tools in Chrome:
+	- Visit http://www.afl.com.au/stats
 	- Open developer tools
 	- Change to network tab
 	- Add a filter for 'XHR'
