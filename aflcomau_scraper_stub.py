@@ -37,5 +37,5 @@ match_json = respon.json()
 collingwood_stats = response.json()['lists'][0]
 freo_stats = response.json()['lists'][1]
 
-#find number of freo centre clearances -- cool!!
+#for eg, can find number of freo centre clearances -- cool!!
 print freo_stats['stats']['totals']['clearances']['stoppageClearances']
